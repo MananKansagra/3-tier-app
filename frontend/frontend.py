@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 
 # Config
-API_URL = "http://<APP_LAYER_PRIVATE_IP>:5000/students"
+API_URL = "http://10.0.2.150:5000/students"
 st.set_page_config(page_title="EduStream Pro", layout="wide")
 
 # Custom CSS for modern look
