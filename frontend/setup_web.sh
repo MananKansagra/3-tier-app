@@ -50,7 +50,7 @@ After=network.target
 [Service]
 User=ec2-user
 WorkingDirectory=$(pwd)
-ExecStart=/home/ec2-user/.local/bin/streamlit run frontend.py --server.port 8501 --server.address 127.0.0.1
+ExecStart=/home/ec2-user/.local/bin/streamlit run /home/ec2-user/3-tier-app/frontend/fronend.py --server.port 8501 --server.address 127.0.0.1
 Restart=always
 
 [Install]
